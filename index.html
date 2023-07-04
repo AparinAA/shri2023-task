@@ -13,32 +13,7 @@
         />
         <script src="vendors/react-with-dom.js" defer></script>
         <script src="vendors/babel.min.js" defer></script>
-        <link rel="stylesheet" type="text/css" href="reset.css" />
-        <link rel="stylesheet" type="text/css" href="styles.css" />
-    </head>
-    <body>
-        <div id="app"></div>
-
-        <footer class="footer">
-            <ul class="footer__list">
-                <li class="footer__item">
-                    <a class="footer__link" href="/">Помощь</a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__link" href="/">Обратная связь</a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__link" href="/">Разработчикам</a>
-                </li>
-                <li class="footer__item">
-                    <a class="footer__link" href="/">Условия использования</a>
-                </li>
-            </ul>
-
-            <div class="footer__copyright">© 1997–2023 ООО «Яндекс»</div>
-        </footer>
-
-        <script type="text/babel">
+        <script type="text/babel" defer>
             function Header() {
                 let [expanded, setExpanded] = React.useState(false);
                 let [toggled, setToggled] = React.useState(false);
@@ -533,5 +508,29 @@
                 );
             }, 100);
         </script>
+        <link rel="stylesheet" type="text/css" href="reset.css" />
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <div id="app"></div>
+
+        <footer class="footer">
+            <ul class="footer__list">
+                <li class="footer__item">
+                    <a class="footer__link" href="/">Помощь</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="/">Обратная связь</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="/">Разработчикам</a>
+                </li>
+                <li class="footer__item">
+                    <a class="footer__link" href="/">Условия использования</a>
+                </li>
+            </ul>
+
+            <div class="footer__copyright">© 1997–2023 ООО «Яндекс»</div>
+        </footer>
     </body>
 </html>
