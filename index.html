@@ -11,7 +11,8 @@
             type="font/woff2"
             crossorigin="anonymous"
         />
-        <script src="vendors/react-with-dom.js"></script>
+        <script src="vendors/react-with-dom.js" defer></script>
+        <script src="vendors/babel.min.js" defer></script>
         <link rel="stylesheet" type="text/css" href="reset.css" />
         <link rel="stylesheet" type="text/css" href="styles.css" />
     </head>
@@ -37,8 +38,7 @@
             <div class="footer__copyright">© 1997–2023 ООО «Яндекс»</div>
         </footer>
 
-        <script src="vendors/babel.min.js" defer></script>
-        <script type="text/babel" defer>
+        <script type="text/babel">
             function Header() {
                 let [expanded, setExpanded] = React.useState(false);
                 let [toggled, setToggled] = React.useState(false);
