@@ -290,7 +290,7 @@ body {
         height: auto;
         margin-bottom: 0.3125rem;
         background: no-repeat 50% 50% url(assets/bg@1x.png);
-        background-size: 1260px;
+        /* background-size: 1260px; */
     }
 }
 
